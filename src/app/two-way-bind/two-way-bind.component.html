@@ -1,0 +1,37 @@
+<table border="1">
+    <tr>
+        <td>Id</td>
+        <td> <input type="text" [(ngModel)]="employee.id" /> </td>
+    </tr>
+    <tr>
+        <td>Name</td>
+        <td><input type="text" [(ngModel)]="employee.name" /></td>
+    </tr>
+    <tr>
+        <td>Address</td>
+        <td><input type="text" [(ngModel)]="employee.address" /></td>
+    </tr>
+    <tr>
+        <td>Salary</td>
+        <td><input type="text" [(ngModel)]="employee.salary" /></td>
+    </tr>
+</table>
+
+<table border="1" style="margin-top: 10px; width: 20%;">
+    <tr>
+        <td>Id</td>
+        <td>{{employee.id}} </td>
+    </tr>
+    <tr>
+        <td>Name</td>
+        <td>{{employee.name}}</td>
+    </tr>
+    <tr>
+        <td>Address</td>
+        <td>{{employee.address}}</td>
+    </tr>
+    <tr>
+        <td>Salary</td>
+        <td>{{employee.salary}}</td>
+    </tr>
+</table>
